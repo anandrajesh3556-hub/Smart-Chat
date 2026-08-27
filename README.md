@@ -1,8 +1,7 @@
-
-# 🎓 Campus Talk  
+# 💬 Smart Chat  
 ### A PHP-Based Threads Style Social Platform for Campus Communities
 
-Campus Talk is a modern campus discussion and social networking web application developed using PHP, MySQL, HTML, CSS, and JavaScript. The platform is inspired by modern social media discussion applications and is designed specifically for college and university students to connect, interact, and share ideas digitally.
+Smart Chat is a modern campus discussion and social networking web application developed using PHP, MySQL, HTML, CSS, and JavaScript. The platform is inspired by modern social media discussion applications and is designed specifically for college and university students to connect, interact, and share ideas digitally.
 
 This project was developed as a Minor Project and can run easily on localhost using XAMPP/WAMP or on any standard PHP hosting server.
 
@@ -20,7 +19,7 @@ This project was developed as a Minor Project and can run easily on localhost us
 
 # 📌 About The Project
 
-Campus Talk provides a dedicated digital space for students to:
+Smart Chat provides a dedicated digital space for students to:
 - Create discussion threads
 - Share updates and ideas
 - Interact with fellow students
@@ -100,7 +99,7 @@ The platform is inspired by modern thread-based social applications and focuses 
 # 📂 Project Structure
 
 ```bash
-Campus-Talk/
+Smart-Chat/
 │
 ├── assets/             # CSS, JS, Images
 ├── includes/           # Database & Config Files
@@ -109,7 +108,7 @@ Campus-Talk/
 ├── auth/               # Authentication System
 ├── index.php           # Homepage
 └── database.sql        # Database File
-````
+```
 
 ---
 
@@ -171,7 +170,7 @@ Example:
 $host = "localhost";
 $user = "root";
 $password = "";
-$database = "campustalk";
+$database = "smartchat";
 ?>
 ```
 
@@ -182,7 +181,7 @@ $database = "campustalk";
 Open browser:
 
 ```bash id="6h0zpk"
-http://localhost/Campus-Talk
+http://localhost/Smart-Chat
 ```
 
 ---
@@ -213,7 +212,7 @@ This project can be hosted on:
 
 # 🎯 Project Objective
 
-The objective of Campus Talk is to create a digital social discussion platform for campus communities where students can communicate, share ideas, and interact through a modern thread-based system.
+The objective of Smart Chat is to create a digital social discussion platform for campus communities where students can communicate, share ideas, and interact through a modern thread-based system.
 
 ---
 
