@@ -1,0 +1,20 @@
+<?php
+include('header.php');
+?>
+
+<div class="login-form">
+    <h2>Login</h2>
+    <form action="login_process.php" method="post">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</div>
+
+<?php include('footer.php'); ?>

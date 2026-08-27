@@ -1,0 +1,34 @@
+# Environment & Database Credentials
+.env
+.env.*
+*.env
+config.php
+includes/config.php
+
+# SSL Certificates & Security Keys
+*.pem
+*.crt
+*.key
+*.cer
+*.p12
+
+# Dependencies
+node_modules/
+vendor/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads & Temporary Files
+uploads/*
+!uploads/.gitkeep
+tmp/
+*.log
+
+# OS & Editor Configs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

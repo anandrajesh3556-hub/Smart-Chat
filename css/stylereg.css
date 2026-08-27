@@ -1,0 +1,49 @@
+/*=============================================================================================*/
+/*Dropdown option dept on reg page*/
+.dept {
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    appearance: none; /* Removes default arrow in some browsers */
+    background: linear-gradient(45deg, #dbd5d5 50%, #5c5858 50%);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .dept:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background: linear-gradient(45deg, #e0e0e0 50%, #f8f8f8 50%);
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    width: 50%;
+    padding: 15px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #d3d2d2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #dc1818;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .form-container {
+        padding: 15px;
+    }
+  
+    .submit-btn {
+        padding: 12px;
+        font-size: 14px;
+    }
+  }
